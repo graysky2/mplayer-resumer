@@ -14,3 +14,6 @@ Watching 90% of a video and stopping causes you to return to the beginning again
 
 DESIGN LIMITATION
 If the video file to be played is on a read-only filesystem, or otherwise lives in a location that cannot be written to, resume will fail. This is because the current implementation uses a file parallel to the video file to store the timecode.
+
+
+Link to AUR package: https://aur.archlinux.org/packages/mplayer-resumer
