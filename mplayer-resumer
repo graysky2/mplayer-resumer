@@ -130,7 +130,7 @@ sub mplayer () {
 	#print DEBUG $_;
 	if (m/A: *[0-9]+\.[0-9]/) { # See if this line has timecodes on it
 	    my $last_timecode_line = &extract_last_timecode_line($_);
-	    if ($last_timecode_line =~ m/ *([0-9]+\.[0-9]) V/) {
+	    if ($last_timecode_line =~ m/ *([0-9]+\.[0-9]) /) {
 		$seconds=$1;
 	    }
 	}
