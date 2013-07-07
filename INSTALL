@@ -1,0 +1,13 @@
+DEPENDENCIES
+ mplayer or mplayer2
+ perl
+ perl-shell (http://search.cpan.org/dist/Shell/)
+
+BUILDING
+ $ make
+ # make install
+
+USE A DISTRO PROVIDED PACKAGE
+ ARCH LINUX
+ Arch users may build the package directly with the provided
+ PKGBUILD: https://aur.archlinux.org/packages/mplayer-resumer

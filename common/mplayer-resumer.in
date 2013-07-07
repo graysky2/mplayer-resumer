@@ -184,5 +184,5 @@ sub print_usage () {
     print "USAGE:\n";
     print "\t",$ARGV[0], "[mplayer parameters] video_file\n";
     print "\t","e.g. ",$ARGV[0], "-fs -zoom my.mpg\n";
-    print "\t","Version 5/3/2006\n";
+    print "\t","@VERSION@\n";
 }
